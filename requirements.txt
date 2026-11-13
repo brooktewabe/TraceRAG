@@ -1,0 +1,6 @@
+# Phase 1: Embeddings & Semantic Search
+numpy>=1.26.0
+sentence-transformers>=3.0.0
+
+
+

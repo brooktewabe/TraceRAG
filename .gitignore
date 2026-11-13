@@ -1,0 +1,19 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector DB & Local Storage
+chroma_data/
+.chroma/
+
+# Environment / Secrets
+.env
+
+# Model caches
+.cache/
