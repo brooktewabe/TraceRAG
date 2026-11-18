@@ -49,6 +49,7 @@ Abstractions help with integration and swapping components, but provider feature
 
 Example: for a backend API, a prompt template can define the role, constraints, input data, and required response format.
 
+- **Temperature parameter:** Controls the randomness of the generated output. Higher values result in more diverse and creative outputs, while lower values result in more predictable and deterministic outputs.
 ---
 
 ## 3. Embeddings, Vector Databases, and Semantic Search
