@@ -1,0 +1,111 @@
+[
+  {
+    "id": "doc_01",
+    "title": "Password Recovery & Account Access",
+    "department": "IT",
+    "category": "security",
+    "access_level": "all_employees",
+    "updated_at": "2024-01-15",
+    "content": "Password recovery process: If you have forgotten your password, navigate to the corporate login portal and click 'Forgot Password'. Enter your registered corporate email address to receive a secure password reset link within 5 minutes. Reset links remain valid for 24 hours. For multi-factor authentication (MFA) resets or locked accounts, submit an urgent ticket to the IT Service Desk."
+  },
+  {
+    "id": "doc_02",
+    "title": "Remote & Hybrid Work Policy",
+    "department": "HR",
+    "category": "workplace",
+    "access_level": "all_employees",
+    "updated_at": "2024-02-01",
+    "content": "Remote and hybrid work policy: Full-time employees are eligible to work remotely up to 3 days per week with direct manager approval. Employees must remain available on Slack and email during core business hours (10:00 to 16:00 local time). A stable high-speed broadband connection and dedicated workspace are required. Secure company VPN must be active whenever accessing internal corporate systems."
+  },
+  {
+    "id": "doc_03",
+    "title": "Annual Leave & Paid Time Off (PTO)",
+    "department": "HR",
+    "category": "benefits",
+    "access_level": "all_employees",
+    "updated_at": "2024-01-10",
+    "content": "Annual leave policy: Full-time employees receive 20 paid vacation days per calendar year, accrued monthly. Planned leave exceeding 3 consecutive days must be submitted at least 2 weeks in advance via the HR Self-Service portal. A maximum of 5 unused vacation days may be carried over into the following year, expiring on March 31st. Public holidays are separate from annual leave allocations."
+  },
+  {
+    "id": "doc_04",
+    "title": "Physical Security & Badge Guidelines",
+    "department": "Operations",
+    "category": "security",
+    "access_level": "all_employees",
+    "updated_at": "2024-03-01",
+    "content": "Physical security policy: Company RFID badges must be worn visibly on corporate premises at all times. Tailgating through turnstiles or secure facility doors is strictly prohibited. Lost or damaged badges must be reported to Facilities within 2 hours. External guests and contractors must sign in at reception, wear temporary visitor passes, and be escorted by an employee at all times."
+  },
+  {
+    "id": "doc_05",
+    "title": "Travel & Expense Reimbursement Policy",
+    "department": "Finance",
+    "category": "expenses",
+    "access_level": "all_employees",
+    "updated_at": "2024-01-20",
+    "content": "Expense reimbursement guidelines: Business expenses and receipts must be submitted within 30 days of purchase via the Concur finance portal. Daily meal allowances are capped at $50 per day during domestic travel and $80 for international travel. Flights and hotel accommodations exceeding $500 require pre-approval from department heads. Itemized receipts are mandatory for all claims over $25."
+  },
+  {
+    "id": "doc_06",
+    "title": "IT Equipment & Hardware Procurement",
+    "department": "IT",
+    "category": "hardware",
+    "access_level": "all_employees",
+    "updated_at": "2024-02-15",
+    "content": "IT equipment requests: Standard developer and office hardware (MacBook Pro 16-inch or Dell XPS, dual 27-inch 4K monitors, and ergonomic peripherals) may be requested through the IT Service Portal. Standard orders are fulfilled within 3 business days. Specialized servers, GPUs, or testing devices require manager budget sign-off. Departing employees must return all hardware within 5 business days."
+  },
+  {
+    "id": "doc_07",
+    "title": "New Hire Onboarding Checklist",
+    "department": "HR",
+    "category": "workplace",
+    "access_level": "all_employees",
+    "updated_at": "2024-01-05",
+    "content": "New employee onboarding: New hires must complete personal profile and payroll tax forms on Day 1. Company orientation and IT security awareness training occur during the first week. Every new team member is paired with an onboarding buddy for their first 90 days. System permissions, Slack channel invites, and GitHub organization access are provisioned automatically based on team role."
+  },
+  {
+    "id": "doc_08",
+    "title": "Code of Professional Conduct",
+    "department": "Legal",
+    "category": "compliance",
+    "access_level": "all_employees",
+    "updated_at": "2024-01-01",
+    "content": "Code of professional conduct: All employees, contractors, and partners must maintain respectful, ethical, and professional behavior. Harassment, discrimination, bullying, and retaliation of any kind are strictly prohibited. Suspected ethics violations should be reported to HR or submitted anonymously via the EthicsPoint compliance hotline. Violations may lead to immediate termination."
+  },
+  {
+    "id": "doc_09",
+    "title": "Data Privacy & GDPR Compliance",
+    "department": "Legal",
+    "category": "compliance",
+    "access_level": "all_employees",
+    "updated_at": "2024-02-10",
+    "content": "Data privacy and protection policy: All customer and employee Personally Identifiable Information (PII) must be processed in compliance with GDPR and CCPA. Personal data may never be exported to unencrypted USB drives or personal cloud accounts. Customer data exports require approval from the Data Protection Officer (DPO). Any suspected security breach must be reported to security@company.com within 24 hours."
+  },
+  {
+    "id": "doc_10",
+    "title": "Annual Performance & Compensation Review",
+    "department": "HR",
+    "category": "performance",
+    "access_level": "all_employees",
+    "updated_at": "2024-03-15",
+    "content": "Performance appraisal cycle: Annual performance evaluations occur during Q4 (November-December) with mid-year check-ins in June. Employees submit self-assessments one week prior to manager 1:1 review meetings. Ratings follow a 5-point scale (1 = Unsatisfactory, 3 = Meets Expectations, 5 = Consistently Exceeds). Merit raises and discretionary bonus payouts are finalized in January."
+  },
+  {
+    "id": "doc_11",
+    "title": "Executive Compensation & Equity Vesting",
+    "department": "Executive",
+    "category": "compensation",
+    "access_level": "manager",
+    "updated_at": "2024-01-01",
+    "content": "Executive equity and compensation schedule: Restricted Stock Units (RSUs) vest over a standard 4-year schedule with a 1-year cliff (25% at 12 months, followed by quarterly vesting). Executive bonus multipliers are determined by board-approved EBITDA targets and company ARR milestones. Access to executive compensation plans is restricted to Director level and above."
+  },
+  {
+    "id": "doc_12",
+    "title": "Incident Management & Severity 1 Escalation",
+    "department": "Engineering",
+    "category": "operations",
+    "access_level": "all_employees",
+    "updated_at": "2024-02-28",
+    "content": "Production incident response: Severity 1 (critical outage impacting customer core transactions) requires opening a war room on PagerDuty within 10 minutes. The primary on-call engineer assumes the role of Incident Commander. Status page updates must be published every 20 minutes until full service recovery. Post-mortem root-cause analysis (RCA) must be published to engineering within 48 hours."
+  }
+]
+
