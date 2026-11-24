@@ -77,7 +77,7 @@ def rewrite_query_node(state: AgentState) -> dict:
                     f"Output ONLY the keywords."
                 )
                 resp = client.models.generate_content(
-                    model="gemini-1.5-flash",
+                    model="gemini-3.5-flash",
                     contents=prompt
                 )
                 rewritten = resp.text.strip().replace('"', '')
@@ -128,7 +128,7 @@ def generate_answer_node(state: AgentState) -> dict:
                 f"Answer:"
             )
             resp = client.models.generate_content(
-                model="gemini-1.5-flash",
+                model="gemini-3.5-flash",
                 contents=prompt
             )
             answer = resp.text.strip()
